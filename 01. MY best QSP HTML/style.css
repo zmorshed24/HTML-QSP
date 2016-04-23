@@ -1,0 +1,47 @@
+/* Base CSS Start*/
+html, body {
+ margin: 0;
+ padding: 0;
+ height: 100%;
+}
+body {font-family:arial;font-size:14px;line-height:18px;color:#444;}
+a {text-decoration:none;color:#000}
+a:hover {text-decoration:none}
+a:focus { outline: 0 solid }
+a {
+    -moz-transition: 0.3s;
+    -o-transition: 0.3s;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    color: #333;
+}
+.fix { overflow: hidden; }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+img {border:none; max-width:100%;height:auto;}
+p{font-size: 14px;line-height: 25px;}
+input[type=text], textarea {border:1px solid #ddd;padding:5px}
+input[type=submit] {border:none;padding:5px 15px;background:#444;color:#fff;}
+ul, ol {margin:15px;margin-right:0}
+.slicknav_menu{display:block;}
+.column {transition: all 0.9s ease 0s;-moz-transition: all 0.9s ease 0s;-webkit-transition: all 0.9s ease 0s;-o-transition: all 0.9s ease 0s;}
+.main_menu {min-height:35px}
+
+/* Base CSS End*/
+
+
+/* start your main CSS here*/
+
+
+
+
+
+
+
